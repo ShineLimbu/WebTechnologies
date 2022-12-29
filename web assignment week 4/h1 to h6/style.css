@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main h1{
+    background-color: rgb(233, 216, 146);
+    color:maroon ;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.main h2{
+    background: rgb(107, 183, 238);
+    font-size: 30px;
+    color:rgb(62, 52, 233) ;
+    margin-bottom: 15px;
+}
+.main h3{
+    background-color: rgb(218, 77, 77);
+    color:rgb(221, 226, 226) ;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.main h4{
+    background-color:yellow;
+    color:rgb(208, 54, 54) ;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.main h5{
+    background-color:rgb(235, 84, 50) ;
+    color:rgb(246, 245, 237) ;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.main h6{
+    background-color: rgb(181, 202, 150);
+    color:blue ;
+    font-size: 10px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: rgb(232, 151, 224);
+}
+.image img{
+    width:100%;
+}
+.main h1{
+    background-color: rgb(235, 228, 228);
+}
+.discription{
+    background-color: rgb(229, 155, 203);
+    font-family: 'Arial', cursive;
+    font-weight:bolder;
+    font-size: 25px;
+}
