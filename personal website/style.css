@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /* navbar */
+    .navbar{
+        display: flex;
+        justify-content: center;
+        height:75px;
+        align-items: center;
+        position:relative;
+        text-decoration: none;
+} 
+ .navbar::before{
+    content: "";
+    position: absolute;
+     background-color:black;
+     height: 300%;
+     width: 100%;
+     z-index: -1;
+ }     
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.4rem;
+}
+.navbar ul li{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid;
+}
+nav a{
+    display: block;
+    color: orange;
+    text-decoration: none;
+    color: orange;
+}
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 894px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEA;
+    color: white;
+}
+.heading{
+    color: black;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left:-18rem;
+    padding-left: 20%;
+    margin-top: 50px;
+}
+.subheading{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}    
+img.personal {
+    display: block;
+    border-radius: 32%;
+    height: 400px;
+    margin-right: auto;
+    
+}
+.ed::before{
+    content: "";
+    position: absolute;
+     background-color:#ECECEA;
+     height: 110%;
+     width: 100%;
+     z-index: -1;
+}
+.Education{
+    color: hsl(60, 5%, 92%);
+    height: 380px;
+    display: flex;
+}
+.ed{
+    font-size: 2rem;
+    color:orange;
+}
+img.college{
+    height:300px;
+    width: 50rem;
+}
+.tj{
+    display: flex;
+}
+.define{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:50rem;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+.defi{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 3rem;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.men{
+    padding:50px;
+}
+.photo{
+    padding-left: 30px;
+    border-radius: 50px;
+    height: 320px;
+    width: 625px;
+}
+img.pinnacle{
+    height:364px;
+    width: 38rem;
+}
+.Education h1{
+    color:black;
+    font-size: 30px;
+    font-display: flex;
+}
+.pinnacle h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.hb{
+    color:orange;
+    background-color:#ECECEA;
+    font-size: 2rem;
+    height: 105px;
+    width: 100%;
+}
+.Hobbies::before{
+    content: "";
+    position: absolute;
+     background-color:#ECECEA;
+     height: 89%;
+     width: 100%;
+     z-index: -1;
+}
+.games{
+    height: 25rem;
+    border-radius: 55%;
+    margin-top: 10px;
+    margin:10px;
+}
+.Hobbies{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: flex;
+}
+.space{
+    margin-top: 110px;
+}
+.travel{
+    height: 24rem;
+    border-radius: 55%;
+    margin-top: 10px;
+    margin: 10px;
+    width: 24rem;
+    display: flex;
+}
+.ravel{
+    display: flex;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.bus{
+    margin-top: 110px;
+}
+.about::before{
+    content: "";
+    position: absolute;
+     background-color:#ECECEA;
+     height: 92%;
+     width: 100%;
+     z-index: -1;
+}
+.me{
+    color:orange;
+    font-size: 2rem;
+    height: 105px;
+    width: 100%;
+}
+.stick{
+    height: 25rem;
+    border-radius: 55%;
+    margin-top: 10px;
+    margin:10px;
+}
+.skills::before{
+    content: "";
+    position: absolute;
+     background-color:#ECECEA;
+     height: 107%;
+     width: 100%;
+     z-index: -1;
+}
+.skills{
+    color:orange;
+    font-size: 2rem;
+    height: 100px;
+    width: 100%;
+}
+img.skil{
+    display: flex;
+    height: 6rem;
+    width: 60%;
+    margin:8rem;
+    font-size:15px;
+}
+.hehe{
+    display: flex;
+    height: 20rem;
+
+}
+.contatc{
+    margin:10rem;
+}
+.pi{
+    font-size: 25px;
+    color:black;
+    display: flex;
+}
+.hehe img{
+    width: auto;
+}
+.pi{
+    padding-top: 140px;
+}
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.contact-box h1{
+    text-align: center;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47a8c3;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
